@@ -1,0 +1,8 @@
+//
+// Created by NaturalVStudio on 2022/6/25.
+//
+
+#ifndef KRIGING_MODERNCPP_VECTOR3_HPP
+#define KRIGING_MODERNCPP_VECTOR3_HPP
+
+#endif //KRIGING_MODERNCPP_VECTOR3_HPP
