@@ -6,9 +6,9 @@
 
 ### file structure:
 + `src` is the main implementation of algorithm
-+ `tools` contains some independent program clips for special requirement, such as visualization and data formatting.
++ `tools` contains some independent code clips for special requirement, such as visualization and data formatting.
 
-### Input formation:
+### Input:
 + text file organized by multi-lines of `x y z`
 + use (`x` and `y`) as keys, while `z` for the value
 
