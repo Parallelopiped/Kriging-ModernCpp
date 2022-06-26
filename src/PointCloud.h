@@ -7,6 +7,7 @@
 
 #include <set>
 #include <fstream>
+#include <algorithm>
 
 #include "Vector3.hpp"
 

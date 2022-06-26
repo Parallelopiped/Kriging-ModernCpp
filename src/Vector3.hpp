@@ -18,7 +18,7 @@ class Vector3{
 public:
     double x;
     double y;
-    double z;
+    double z = 0;
 
     Vector3(): x(0), y(0), z(0) {};
     Vector3(double _x, double _y, double _z): x(_x), y(_y), z(_z) {};
@@ -39,6 +39,7 @@ public:
     }
 
     inline static double distance(Vector3 a, Vector3 b);
+    inline void addZ(double other);
 
     [[nodiscard]] inline std::string toString() const;
 };
@@ -74,6 +75,10 @@ double Vector3::distance(const Vector3 a, const Vector3 b) {
     auto p = std::make_shared<Vector3>(a - b);
     auto t = p->x * p->x + p->y * p->y;
     return sqrt(t);
+}
+
+void Vector3::addZ(double other) {
+    this->z += other;
 }
 
 #endif //KRIGING_MODERNCPP_VECTOR3_HPP
