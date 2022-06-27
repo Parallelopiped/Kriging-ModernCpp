@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 
 int main(){
-	std::freopen("points-1.txt", "r", stdin);
-	std::freopen("input.txt", "w", stdout);
+	std::freopen("points-2.txt", "r", stdin);
+	std::freopen("input2.txt", "w", stdout);
 
 	std::string s;
 	while(std::getline(std::cin, s)){
